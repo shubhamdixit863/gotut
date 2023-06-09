@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"gotuts/datastructure"
+)
 
 func main() {
 
@@ -34,20 +36,24 @@ func main() {
 
 	// ---zero value concept
 
-	var c string
-	fmt.Println(c) // empty string getting printed
+	//var c string
+	//fmt.Println(c) // empty string getting printed
 
 	//name:="shubham"  // string here
 
 	// starting point of all the code in your app
 
-	Add(9, "john", false) // function call
-	var result int
-	f := Subtract(9, 7)
-	fmt.Println(f)
+	//Add(9, "john", false) // function call
+	//var result int
+	//f := Subtract(9, 7)
+	//fmt.Println(f)
 
-	result = Subtract(90, 70)
-	fmt.Println(result)
-	fmt.Println(foo(9, 8))
+	//result = Subtract(90, 70)
+	//fmt.Println(result)
+	//fmt.Println(foo(9, 8))
+
+	//datastructure.PrintMap()
+
+	datastructure.Pointers()
 
 }
