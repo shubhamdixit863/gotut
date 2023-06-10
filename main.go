@@ -1,8 +1,6 @@
 package main
 
-import (
-	"gotuts/datastructure"
-)
+import "gotuts/datastructure"
 
 func main() {
 
@@ -54,6 +52,9 @@ func main() {
 
 	//datastructure.PrintMap()
 
-	datastructure.Pointers()
+	//datastructure.Pointers()
 
+	//datastructure.SliceOperation()
+	datastructure.CopySlices()
+	//datastructure.Variadicexample(9, 9, 9, 9, 9)
 }
