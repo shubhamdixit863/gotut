@@ -55,6 +55,22 @@ func main() {
 	//datastructure.Pointers()
 
 	//datastructure.SliceOperation()
-	datastructure.CopySlices()
+	//datastructure.CopySlices()
+	//datastructure.StructMethods()
+	//datastructure.CompositionInvoke()
 	//datastructure.Variadicexample(9, 9, 9, 9, 9)
+
+	/*
+		h := datastructure.Animal{
+			Legs:     9,
+			Category: "Mamals",
+		}
+
+		fmt.Println(h)
+
+		sc := datastructure.School{Teachers: 80}
+		fmt.Println(sc)
+
+	*/
+	datastructure.CallMoney()
 }
